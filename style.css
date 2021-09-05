@@ -1,0 +1,75 @@
+.backgroud{
+	background-image: url(images/backgroud.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+h1{
+	
+	font-family: Century Schoolbook;
+	font-size: 40px;
+	margin-top: -0.5%;
+	margin-left: -7%;
+}
+a{
+	color: #af7716;
+}
+
+/* Barre de navigation */
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding: 3%;
+  background-color: none;
+  margin-left: 15%;
+}
+
+nav .onglets{
+  display: flex;
+  flex-wrap:wrap;
+}
+nav .onglets p{
+  font-size: 17px;
+  color: #af7716;
+  margin-right: 70px;
+  cursor:pointer;
+  
+}
+nav .onglets p a{
+	color: #af7716;
+	font-family: Trebuchet MS;
+}
+
+nav p a:hover {
+
+color: white;
+border-bottom: 2px solid white;
+padding: 5%;
+
+}
+.un{
+	font-family: Bell MT ;
+	font-size: 110px;
+	color: #af7716;
+	margin-left: 28%;
+	margin-top: -20%;
+}
+.us{
+	font-family: Bell MT ;
+	font-size: 110px;
+	color: #af7716;
+	margin-left: 42%;
+	margin-top: -16%;
+}
+#etoile1{
+	margin-left: 30%;
+	margin-top: -40%;
+}
+#etoile2{
+	margin-left: 63.5%;
+	margin-top: 10%;
+}
+#suite{
+	margin-left: 49%;
+	margin-top:  -100%;
+}
